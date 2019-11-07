@@ -54,12 +54,7 @@ object Test : BuildType({
     }
 })
 
-object HttpsGithubComGarics2000tempConfigGit : GitVcsRoot({
-    name = "https://github.com/Garics2000/temp-config.git"
-    url = "https://github.com/Garics2000/temp-config.git"
-})
-
 object HttpsGithubComJetBrainsTeamcityTestDataGit : GitVcsRoot({
-    name = "https://github.com/JetBrains/teamcity-test-data.git"
+    name = "JBTestDataRepo"
     url = "https://github.com/JetBrains/teamcity-test-data.git"
 })
