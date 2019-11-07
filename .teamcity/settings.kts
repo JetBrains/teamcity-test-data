@@ -28,7 +28,7 @@ version = "2019.1"
 
 project {
 
-    vcsRoot(JBTestDataRepo)
+    vcsRoot(TCTestDataRepo)
 
     buildType(Test)
 }
@@ -43,7 +43,7 @@ object Test : BuildType({
     }
 
     vcs {
-        root(HttpsGithubComJetBrainsTeamcityTestDataGit, " generated-tests =>")
+        root(TCTestDataRepo, " generated-tests =>")
     }
 
     steps {
@@ -53,7 +53,7 @@ object Test : BuildType({
     }
 })
 
-object HttpsGithubComJetBrainsTeamcityTestDataGit : GitVcsRoot({
-    name = "JBTestDataRepo"
+object TCTestDataRepo : GitVcsRoot({
+    name = "TCTestDataRepo"
     url = "https://github.com/JetBrains/teamcity-test-data.git"
 })
