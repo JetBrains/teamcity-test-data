@@ -28,8 +28,7 @@ version = "2019.1"
 
 project {
 
-    vcsRoot(HttpsGithubComJetBrainsTeamcityTestDataGit)
-    vcsRoot(HttpsGithubComGarics2000tempConfigGit)
+    vcsRoot(JBTestDataRepo)
 
     buildType(Test)
 }
