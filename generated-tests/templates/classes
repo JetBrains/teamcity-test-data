@@ -1,0 +1,17 @@
+com.jetbrains.teamcity.SeleniumWebTest
+com.jetbrains.teamcity.WinInstallerTest
+com.jetbrains.youtrack.BrowserCompatibilityTest
+com.jetbrains.youtrack.PerformanceTest
+com.jetbrains.idea.MavenPluginTest
+com.jetbrains.idea.HelpWizardTest
+com.jetbrains.resharper.DotCoverIntegrationTest
+com.jetbrains.resharper.DotCoverIntegrationTest
+com.jetbrains.pycharm.PipPluginTest
+com.jetbrains.pycharm.VCSPluginTest
+com.jetbrains.rider.DotInspectorTest
+com.jetbrains.rider.VSImportTest
+com.jetbrains.upsource.PullRequestTest
+com.jetbrains.upsource.RebaseTest
+com.jetbrains.datalore.ImportWizardTest
+com.jetbrains.datalore.AnalyticsPluginTest
+

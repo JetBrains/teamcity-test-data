@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.NullPointerException at ThrowsExecp.main(File.java:8)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4 at App.main(App.java:9)
+Exception in thread "main" java.lang.RuntimeException: A test exception
+Exception in thread "main" java.lang.StackOverflowError
+An IOException was caught! java.io.FileNotFoundException: input.txt (No such file or directory)
+Exception in thread "main" java.lang.ArithmeticException: / by zero at arithmetic.ArithmeticException.main(ArithmeticException.java:9)
