@@ -47,7 +47,7 @@ function test_result() {
   fi
   
   while IFS= read -r line; do
-    echo "##teamcity[testStdOut name='className.$test' out='$line']"
+    echo "##teamcity[testStdOut name='className.$name' out='$line']"
   done < <(printf '%s\n' "$LOG_CONTENT")
 
   echo "##teamcity[testFinished name='$name']"
