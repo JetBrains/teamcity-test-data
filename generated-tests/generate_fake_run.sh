@@ -46,9 +46,9 @@ function test_result() {
     echo "##teamcity[testFailed name='$name' message='${exceptions[rand]}' details='${exceptions[rand]}']"
   fi
   
-  while read -r line; do
+  while IFS= read -r line; do
     echo "##teamcity[testStdOut name='className.$test' out='$line']"
-  done <<< "$LOG_CONTENT"
+  done < <(printf '%s\n' "$LOG_CONTENT")
 
   echo "##teamcity[testFinished name='$name']"
 }
