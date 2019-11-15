@@ -69,7 +69,7 @@ do
       test_result "$name" "$status"
       ((TEST_COUNTER++))
       if [[ "$TEST_COUNTER" -gt "$TARGET_NUM" ]]; then
-          exit
+          break
       fi
 
     done
@@ -80,6 +80,4 @@ do
   done
 
 done
-
-
 
