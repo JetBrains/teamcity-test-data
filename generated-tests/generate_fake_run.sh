@@ -45,8 +45,11 @@ function test_result() {
     local rand=$(( ( RANDOM % ${#exceptions[@]} )  + 0 ))
     echo "##teamcity[testFailed name='$name' message='${exceptions[rand]}' details='${exceptions[rand]}']"
   fi
+  
+  while read -r line; do
+    echo "##teamcity[testStdOut name='className.$test' out='$line']"
+  done <<< "$LOG_CONTENT"
 
-  echo "##teamcity[testStdOut name='className.$test' out='$LOG_CONTENT']"
   echo "##teamcity[testFinished name='$name']"
 }
 
