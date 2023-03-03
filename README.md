@@ -1,4 +1,4 @@
-[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)](https://github.com/JetBrains#jetbrains-on-github)
 
 # TeamCity test data repository
 A data repository with a sample configurations which may be required for various kind of testing and development.
